@@ -1,0 +1,282 @@
+{
+    "model.layers.0.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 6,
+        "never_active": 18075,
+        "context_dependent": 863,
+        "always_active_pct": 0.0316722972972973,
+        "never_active_pct": 95.4127956081081,
+        "context_dependent_pct": 4.555532094594595,
+        "avg_firing_rate": 0.05758030340075493
+    },
+    "model.layers.1.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 0,
+        "never_active": 18874,
+        "context_dependent": 70,
+        "always_active_pct": 0.0,
+        "never_active_pct": 99.63048986486487,
+        "context_dependent_pct": 0.36951013513513514,
+        "avg_firing_rate": 0.003970445599406958
+    },
+    "model.layers.2.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 2,
+        "never_active": 18739,
+        "context_dependent": 203,
+        "always_active_pct": 0.010557432432432432,
+        "never_active_pct": 98.91786317567568,
+        "context_dependent_pct": 1.0715793918918919,
+        "avg_firing_rate": 0.010190851055085659
+    },
+    "model.layers.3.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 0,
+        "never_active": 18794,
+        "context_dependent": 150,
+        "always_active_pct": 0.0,
+        "never_active_pct": 99.20819256756756,
+        "context_dependent_pct": 0.7918074324324325,
+        "avg_firing_rate": 0.02682242915034294
+    },
+    "model.layers.4.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 0,
+        "never_active": 17351,
+        "context_dependent": 1593,
+        "always_active_pct": 0.0,
+        "never_active_pct": 91.59100506756756,
+        "context_dependent_pct": 8.408994932432433,
+        "avg_firing_rate": 0.07538197189569473
+    },
+    "model.layers.5.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 0,
+        "never_active": 17795,
+        "context_dependent": 1149,
+        "always_active_pct": 0.0,
+        "never_active_pct": 93.93475506756756,
+        "context_dependent_pct": 6.0652449324324325,
+        "avg_firing_rate": 0.05381523445248604
+    },
+    "model.layers.6.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 4,
+        "never_active": 4247,
+        "context_dependent": 14693,
+        "always_active_pct": 0.021114864864864864,
+        "never_active_pct": 22.41870777027027,
+        "context_dependent_pct": 77.56017736486487,
+        "avg_firing_rate": 0.29497113823890686
+    },
+    "model.layers.7.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 4,
+        "never_active": 1392,
+        "context_dependent": 17548,
+        "always_active_pct": 0.021114864864864864,
+        "never_active_pct": 7.347972972972973,
+        "context_dependent_pct": 92.63091216216216,
+        "avg_firing_rate": 0.32462796568870544
+    },
+    "model.layers.8.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 12,
+        "never_active": 809,
+        "context_dependent": 18123,
+        "always_active_pct": 0.0633445945945946,
+        "never_active_pct": 4.270481418918918,
+        "context_dependent_pct": 95.66617398648648,
+        "avg_firing_rate": 0.3317406177520752
+    },
+    "model.layers.9.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 6,
+        "never_active": 7171,
+        "context_dependent": 11767,
+        "always_active_pct": 0.0316722972972973,
+        "never_active_pct": 37.853673986486484,
+        "context_dependent_pct": 62.11465371621622,
+        "avg_firing_rate": 0.2487867921590805
+    },
+    "model.layers.10.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 10,
+        "never_active": 537,
+        "context_dependent": 18397,
+        "always_active_pct": 0.052787162162162164,
+        "never_active_pct": 2.8346706081081083,
+        "context_dependent_pct": 97.11254222972973,
+        "avg_firing_rate": 0.33968687057495117
+    },
+    "model.layers.11.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 10,
+        "never_active": 529,
+        "context_dependent": 18405,
+        "always_active_pct": 0.052787162162162164,
+        "never_active_pct": 2.792440878378378,
+        "context_dependent_pct": 97.15477195945947,
+        "avg_firing_rate": 0.3251866102218628
+    },
+    "model.layers.12.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 14,
+        "never_active": 1230,
+        "context_dependent": 17700,
+        "always_active_pct": 0.07390202702702703,
+        "never_active_pct": 6.492820945945946,
+        "context_dependent_pct": 93.43327702702703,
+        "avg_firing_rate": 0.30773022770881653
+    },
+    "model.layers.13.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 9,
+        "never_active": 1306,
+        "context_dependent": 17629,
+        "always_active_pct": 0.04750844594594595,
+        "never_active_pct": 6.894003378378379,
+        "context_dependent_pct": 93.05848817567568,
+        "avg_firing_rate": 0.3002568483352661
+    },
+    "model.layers.14.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 8,
+        "never_active": 1044,
+        "context_dependent": 17892,
+        "always_active_pct": 0.04222972972972973,
+        "never_active_pct": 5.51097972972973,
+        "context_dependent_pct": 94.44679054054053,
+        "avg_firing_rate": 0.3103245794773102
+    },
+    "model.layers.15.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 14,
+        "never_active": 1448,
+        "context_dependent": 17482,
+        "always_active_pct": 0.07390202702702703,
+        "never_active_pct": 7.643581081081082,
+        "context_dependent_pct": 92.2825168918919,
+        "avg_firing_rate": 0.3047497868537903
+    },
+    "model.layers.16.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 9,
+        "never_active": 1222,
+        "context_dependent": 17713,
+        "always_active_pct": 0.04750844594594595,
+        "never_active_pct": 6.450591216216216,
+        "context_dependent_pct": 93.50190033783784,
+        "avg_firing_rate": 0.30257466435432434
+    },
+    "model.layers.17.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 15,
+        "never_active": 896,
+        "context_dependent": 18033,
+        "always_active_pct": 0.07918074324324324,
+        "never_active_pct": 4.72972972972973,
+        "context_dependent_pct": 95.19108952702703,
+        "avg_firing_rate": 0.31773293018341064
+    },
+    "model.layers.18.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 37,
+        "never_active": 995,
+        "context_dependent": 17912,
+        "always_active_pct": 0.1953125,
+        "never_active_pct": 5.252322635135135,
+        "context_dependent_pct": 94.55236486486487,
+        "avg_firing_rate": 0.33998948335647583
+    },
+    "model.layers.19.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 23,
+        "never_active": 288,
+        "context_dependent": 18633,
+        "always_active_pct": 0.12141047297297297,
+        "never_active_pct": 1.5202702702702704,
+        "context_dependent_pct": 98.35831925675676,
+        "avg_firing_rate": 0.3677036166191101
+    },
+    "model.layers.20.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 58,
+        "never_active": 135,
+        "context_dependent": 18751,
+        "always_active_pct": 0.3061655405405405,
+        "never_active_pct": 0.7126266891891891,
+        "context_dependent_pct": 98.98120777027027,
+        "avg_firing_rate": 0.39380955696105957
+    },
+    "model.layers.21.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 30,
+        "never_active": 66,
+        "context_dependent": 18848,
+        "always_active_pct": 0.15836148648648649,
+        "never_active_pct": 0.3483952702702703,
+        "context_dependent_pct": 99.49324324324324,
+        "avg_firing_rate": 0.4379042088985443
+    },
+    "model.layers.22.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 60,
+        "never_active": 235,
+        "context_dependent": 18649,
+        "always_active_pct": 0.31672297297297297,
+        "never_active_pct": 1.240498310810811,
+        "context_dependent_pct": 98.44277871621621,
+        "avg_firing_rate": 0.41539064049720764
+    },
+    "model.layers.23.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 27,
+        "never_active": 2178,
+        "context_dependent": 16739,
+        "always_active_pct": 0.14252533783783783,
+        "never_active_pct": 11.49704391891892,
+        "context_dependent_pct": 88.36043074324324,
+        "avg_firing_rate": 0.3352557420730591
+    },
+    "model.layers.24.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 33,
+        "never_active": 1210,
+        "context_dependent": 17701,
+        "always_active_pct": 0.17419763513513514,
+        "never_active_pct": 6.387246621621621,
+        "context_dependent_pct": 93.43855574324324,
+        "avg_firing_rate": 0.3576897382736206
+    },
+    "model.layers.25.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 53,
+        "never_active": 2437,
+        "context_dependent": 16454,
+        "always_active_pct": 0.2797719594594595,
+        "never_active_pct": 12.86423141891892,
+        "context_dependent_pct": 86.85599662162163,
+        "avg_firing_rate": 0.3413781225681305
+    },
+    "model.layers.26.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 125,
+        "never_active": 1291,
+        "context_dependent": 17528,
+        "always_active_pct": 0.6598395270270271,
+        "never_active_pct": 6.814822635135136,
+        "context_dependent_pct": 92.52533783783784,
+        "avg_firing_rate": 0.40717387199401855
+    },
+    "model.layers.27.mlp.act_fn": {
+        "total_neurons": 18944,
+        "always_active": 385,
+        "never_active": 4262,
+        "context_dependent": 14297,
+        "always_active_pct": 2.0323057432432434,
+        "never_active_pct": 22.497888513513516,
+        "context_dependent_pct": 75.46980574324324,
+        "avg_firing_rate": 0.3266545236110687
+    }
+}

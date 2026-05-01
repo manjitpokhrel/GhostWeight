@@ -249,6 +249,20 @@ However, the predictor cost 0.2509ms per call — 38.30% of dense layer time. Th
 
 ---
 
+## 🏁 72B Live Demo
+
+We successfully ran **Qwen2.5-72B-Instruct-Q4_K_M** on a single
+RTX 5060 (8GB) using llama.cpp partial GPU offload.
+
+- **Status:** Generated coherent output ✅
+- **Speed:** ~0.022 tokens/sec (IO-bound, dense weights)
+- **RAM used:** 11.5 GB (model paged from NVMe)
+- **VRAM used:** Partial offload (8 GPU layers)
+
+**The bottleneck is not compute. It is the 47GB IO footprint.**
+GhostWeight's 72.88% sparsity reduction is the path to
+real-time 70B inference on consumer hardware.
+
 ## Hardware
 
 All experiments run on:

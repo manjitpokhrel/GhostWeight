@@ -1,0 +1,7 @@
+{
+    "never_active_pct": 27.252503619691122,
+    "speedup_static_pct": 31.674579669550628,
+    "speedup_combined_pct": 66.05085611676138,
+    "predictor_overhead_pct": 19.99,
+    "net_speedup_with_predictor_pct": 3.4
+}

@@ -1,0 +1,8 @@
+{
+    "serial_ms": 187.55099999998492,
+    "async_ms": 124.11710000000653,
+    "overlap_pct": 33.82221369120052,
+    "pcie_bandwidth_gbs": 13.965592991074582,
+    "layer_swap_ms": 8.449336886404598,
+    "hardware": "RTX 5060 Blackwell GDDR7"
+}

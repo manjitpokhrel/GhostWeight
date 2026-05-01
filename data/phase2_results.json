@@ -1,0 +1,11 @@
+{
+    "phase": "Phase 2 \u2014 Ghost Streamer",
+    "model": "Qwen2.5-7B-Instruct (4-bit NF4)",
+    "ghostgate_threshold": 0.25,
+    "predictor_recall": 0.8559,
+    "avg_forward_time_ms": 398.5562199995911,
+    "avg_vram_gb": 5.8681095168,
+    "avg_sparsity_pct": 72.87893618856157,
+    "tokens_per_second": 14.171382406729588,
+    "peak_vram_gb": 5.869698048
+}

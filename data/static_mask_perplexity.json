@@ -1,0 +1,9 @@
+{
+    "baseline_ppl": 4.941322326660156,
+    "static_ppl": 4.941322326660156,
+    "static_delta_pct": 0.0,
+    "combined_ppl": 5.199496746063232,
+    "combined_delta_pct": 5.2248042595832125,
+    "static_speedup_pct": 31.67,
+    "combined_speedup_pct": 66.05
+}

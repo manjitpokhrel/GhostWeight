@@ -1,0 +1,42 @@
+{
+    "baseline": 4.941322326660156,
+    "results": [
+        {
+            "threshold": 0.05,
+            "sparsity": 20.8,
+            "perplexity": 5.199496746063232,
+            "delta_pct": 5.2248042595832125,
+            "status": "\u2705 ACCEPTABLE"
+        },
+        {
+            "threshold": 0.1,
+            "sparsity": 34.43,
+            "perplexity": 5.664957523345947,
+            "delta_pct": 14.644565742686467,
+            "status": "\u2705 ACCEPTABLE"
+        },
+        {
+            "threshold": 0.15,
+            "sparsity": 44.54,
+            "perplexity": 7.124302387237549,
+            "delta_pct": 44.17805429934118,
+            "status": "\u26a0\ufe0f MODERATE"
+        },
+        {
+            "threshold": 0.2,
+            "sparsity": 55.85,
+            "perplexity": 8.862739562988281,
+            "delta_pct": 79.35967291934615,
+            "status": "\u274c SIGNIFICANT"
+        },
+        {
+            "threshold": 0.25,
+            "sparsity": 70.28,
+            "perplexity": 21.998476028442383,
+            "delta_pct": 345.19411149831166,
+            "status": "\u274c SIGNIFICANT"
+        }
+    ],
+    "model": "Qwen2.5-7B-Instruct 4bit NF4",
+    "hardware": "RTX 5060 8GB Blackwell"
+}

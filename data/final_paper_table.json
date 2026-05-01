@@ -1,0 +1,37 @@
+[
+    {
+        "label": "Baseline",
+        "total_sparsity": 27.3,
+        "perplexity": 6.939352989196777,
+        "ppl_delta": 0.0,
+        "speedup": 0.0
+    },
+    {
+        "label": "Static only",
+        "total_sparsity": 27.3,
+        "perplexity": 6.939352989196777,
+        "ppl_delta": 0.0,
+        "speedup": 38.354799306158306
+    },
+    {
+        "label": "Static + GhostGate t=0.05",
+        "total_sparsity": 42.421600000000005,
+        "perplexity": 7.349156379699707,
+        "ppl_delta": 5.905498554993727,
+        "speedup": 74.70944390444383
+    },
+    {
+        "label": "Static + GhostGate t=0.10",
+        "total_sparsity": 52.33061,
+        "perplexity": 7.713890075683594,
+        "ppl_delta": 11.16151733011161,
+        "speedup": 110.52850323182217
+    },
+    {
+        "label": "Static + GhostGate t=0.25",
+        "total_sparsity": 78.39356,
+        "perplexity": 36.55720901489258,
+        "ppl_delta": 426.8100509053948,
+        "speedup": 352.1395483501867
+    }
+]

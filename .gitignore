@@ -1,0 +1,42 @@
+# Model weights
+sparse_weights_7b/
+*.pt
+*.bin
+*.safetensors
+*.gguf
+
+# HuggingFace cache
+hf_cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Build artifacts
+release/kernels/build/
+*.dll
+*.exe
+*.obj
+*.o
+*.d
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data (keep JSONs, ignore raw tensors)
+*.npy
+*.npz
+*.pkl
+
+# Conda/venv
+gw_env/
+venv/
+
+*.egg-info/

@@ -1,0 +1,11 @@
+{
+    "dense_ms": 0.9664899999995669,
+    "ghost_v1_ms": 1.067149000000427,
+    "ghost_v2_ms": 0.5690925000004654,
+    "speedup_v1_pct": -9.432515984255218,
+    "speedup_v2_pct": 69.83003641741483,
+    "sparsity_pct": 72.88,
+    "active_ratio_pct": 20.172991071428573,
+    "hardware": "RTX 5060 Blackwell GDDR7",
+    "cuda": "12.6"
+}

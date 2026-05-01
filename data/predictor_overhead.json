@@ -1,0 +1,12 @@
+{
+    "predictor_single_call_ms": 0.25090779999845836,
+    "dense_layer_ms": 0.6550886000004539,
+    "ghost_no_predictor_ms": 0.5309362000007241,
+    "ghost_with_predictor_ms": 0.6335624000003008,
+    "speedup_no_predictor_pct": 23.383675854002895,
+    "speedup_with_predictor_pct": 3.3976448097524203,
+    "predictor_tax_pct": 19.986031044250474,
+    "num_layers": 28,
+    "sparsity_pct": 20.8,
+    "threshold": 0.05
+}

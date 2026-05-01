@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghostweight"
+version = "0.1.0"
+authors = [
+  { name="Manjit Pokhrel", email="your@email.com" },
+]
+description = "Surgical Activation Sparsity for LLMs on Blackwell Architectures"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers",
+    "accelerate",
+    "numpy"
+]
+
+[tool.setuptools]
+packages = ["ghostweight"]
+
+[project.urls]
+"Homepage" = "https://github.com/manjitpokhrel/GhostWeight"
+"Bug Tracker" = "https://github.com/manjitpokhrel/GhostWeight/issues"
