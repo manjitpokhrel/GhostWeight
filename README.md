@@ -6,6 +6,8 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![CUDA 12.6](https://img.shields.io/badge/CUDA-12.6-green.svg)](https://developer.nvidia.com/cuda-downloads)
 [![Hardware: RTX 5060](https://img.shields.io/badge/Hardware-RTX%205060%208GB-orange.svg)](https://www.nvidia.com/)
+[![PyPI version](https://badge.fury.io/py/ghostweight.svg)](https://badge.fury.io/py/ghostweight)
+[![PyPI downloads](https://img.shields.io/pypi/dm/ghostweight)](https://pypi.org/project/ghostweight/)
 
 ---
 
@@ -124,44 +126,32 @@ This eliminates warp divergence and achieves 95.8% of theoretical maximum kernel
 ## Installation
 
 ```bash
-git clone https://github.com/manjitpokhrel/GhostWeight
-cd GhostWeight
-pip install -r requirements.txt
+# From PyPI (recommended)
+pip install ghostweight
+
+# From GitHub (latest dev version)
+pip install git+https://github.com/manjitpokhrel/GhostWeight.git
 ```
-
-Or use the conda environment:
-
-```bash
-conda env create -f environment.yml
-conda activate ghostweight
-```
-
----
 
 ## Quick Start
 
 ```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from ghostweight import apply_ghostgate
+from transformers import AutoModelForCausalLM
+from ghostweight import ghost_surgery
+import torch
 
-model_id = "Qwen/Qwen2.5-7B-Instruct"
-
-tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(
-    model_id,
+    "Qwen/Qwen2.5-7B-Instruct",
     device_map="cuda",
-    torch_dtype="auto"
+    torch_dtype=torch.float16,
 )
 
-# One line to enable GhostGate
-model = apply_ghostgate(model, threshold=0.05)
+# One line to enable GhostWeight
+model, replaced = ghost_surgery(model, threshold=0.05)
 
-# Inference is now 74% faster with 5.91% perplexity cost
-inputs = tokenizer("Explain quantum entanglement", return_tensors="pt").to("cuda")
-output = model.generate(**inputs, max_new_tokens=100)
-print(tokenizer.decode(output[0], skip_special_tokens=True))
+print(f"GhostGate applied to {replaced} layers")
+print(f"Expected speedup: ~74% at threshold=0.05")
 ```
-
 ---
 
 ## Reproduce The Results
