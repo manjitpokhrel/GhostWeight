@@ -1,0 +1,10 @@
+{
+    "dense_ms": 0.6553,
+    "predictor_ms": 0.9062,
+    "static_ms": 0.47627204,
+    "ghost_ms": 0.19639341000000002,
+    "speedup_predictor_pct": -27.68704480247186,
+    "speedup_static_pct": 37.589433131535486,
+    "speedup_ghost_pct": 233.66700033366698,
+    "predictor_overhead_pct": 38.28780711124676
+}
